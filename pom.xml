@@ -4,7 +4,7 @@
 
     <groupId>io.github.dbrach77</groupId>
     <artifactId>testmvncentral</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <build>
         <plugins>
@@ -84,7 +84,7 @@
         <connection>scm:git:git://github.com/dbrach77/testmvncentral.git</connection>
         <developerConnection>scm:git:ssh://github.com/dbrach77/testmvncentral.git</developerConnection>
         <url>https://github.com/dbrach77/testmvncentral/tree/master</url>
-      <tag>1.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <profiles>
