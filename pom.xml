@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.dbrach77</groupId>
     <artifactId>testmvncentral</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
     <name>Test Maven Central</name>
     <description>Test Maven Central</description>
@@ -35,7 +35,7 @@
         <connection>scm:git:git://github.com/dbrach77/testmvncentral.git</connection>
         <developerConnection>scm:git:git@github.com:dbrach77/testmvncentral.git</developerConnection>
         <url>https://github.com/dbrach77/testmvncentral</url>
-        <tag>HEAD</tag>
+        <tag>testmvncentral-1.0.6</tag>
     </scm>
 
     <distributionManagement>
