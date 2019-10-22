@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.github.dbrach77</groupId>
     <artifactId>testmvncentral</artifactId>
     <version>1.0.2-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <name>Test MAven Central</name>
+    <description></description>
+    <url>https://github.com/dbrach77/testmvncentral</url>
+
+    <organization>
+        <url>https://github.com/dbrach77</url>
+        <name>testmvncentral</name>
+    </organization>
+
+    <scm>
+        <connection>scm:git:git://github.com/dbrach77/testmvncentral.git</connection>
+        <developerConnection>scm:git:git@github.com:dbrach77/testmvncentral.git</developerConnection>
+        <url>https://github.com/dbrach77/testmvncentral</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
+            </url>
+        </repository>
+    </distributionManagement>
+
+
     <build>
         <plugins>
             <plugin>
@@ -68,24 +95,9 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
-            </url>
-        </repository>
-    </distributionManagement>
 
-    <scm>
-        <connection>scm:git:git://github.com/dbrach77/testmvncentral.git</connection>
-        <developerConnection>scm:git:git@github.com:dbrach77/testmvncentral.git</developerConnection>
-        <url>https://github.com/dbrach77/testmvncentral</url>
-        <tag>HEAD</tag>
-    </scm>
+
+
 
     <profiles>
         <!-- GPG Signature on release -->
