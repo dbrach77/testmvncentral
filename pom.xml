@@ -81,10 +81,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/dexecutor/dependent-tasks-executor.git</connection>
-        <developerConnection>scm:git:git@github.com:dexecutor/dexecutor.git</developerConnection>
-        <url>https://github.com/dexecutor/dependent-tasks-executor</url>
-        <tag>HEAD</tag>
+        <connection>scm:git:git://github.com/dbrach77/testmvncentral.git</connection>
+        <developerConnection>scm:git:ssh://github.com/dbrach77/testmvncentral.git</developerConnection>
+        <url>https://github.com/dbrach77/testmvncentral/tree/master</url>
     </scm>
 
     <profiles>
